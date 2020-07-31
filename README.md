@@ -1,2 +1,2 @@
-# school_home_landing
-School landing page
+# Some School Home Landing Page
+Test project
