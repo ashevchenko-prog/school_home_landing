@@ -10,7 +10,8 @@
     font-family: Ubuntu;
 }
 .jumbotron{
-    background: #c7b39b url(../img/123.jpg); /* Цвет фона и путь к файлу */
+    background: #c7b39b url(../img/bgr1.jpg);
+    /*background: #c7b39b url(../img/123.jpg); /* Цвет фона и путь к файлу */
     color:black; /* Цвет текста */
     font-family: Ubuntu;
 }
@@ -27,7 +28,7 @@
   justify-content: center;
 }
 .adress{
-    font-size: 12px; 
+    font-size: 14px; 
     margin-top: 20px;
     line-height: 21px;
 }
@@ -52,7 +53,6 @@
     margin-bottom: 15px;
     margin-top: 15px;
   }
-
   .footer{
     height: 50px;
     text-align: center;
@@ -60,7 +60,7 @@
     margin-bottom: 0px;
     font-size: 11px; 
     font-family: Ubuntu;
-    background-color: gray;
+    background-color: rgb(199, 220, 241);
     padding-top: 15px;
   }
   p{
@@ -76,4 +76,19 @@
     
     line-height: 24px;
     font-size: 24px; 
+}
+.navbar-brand, .nav-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 15px;
+    color: white;
+    line-height: 16px;
+    margin-bottom: 0px;
+    margin-top: 15px;
+}
+a {
+    color: green;
+    text-decoration: none;
+    background-color: transparent;
 }
