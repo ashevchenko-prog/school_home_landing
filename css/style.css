@@ -6,14 +6,16 @@
     margin-right: auto;
     margin-top: 10px;
     background-color:white;
-    box-shadow: blue;
     font-family: Ubuntu;
+    border-radius: 0px;
 }
 .jumbotron{
     background: #c7b39b url(../img/bgr1.jpg);
-    /*background: #c7b39b url(../img/123.jpg); /* Цвет фона и путь к файлу */
     color:black; /* Цвет текста */
     font-family: Ubuntu;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 .header{
     font-size: 14px;
@@ -92,3 +94,24 @@ a {
     text-decoration: none;
     background-color: transparent;
 }
+#nav{
+    background-color: rgb(206, 204, 204);
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-radius: 4px;
+}
+.li1{
+    float: left;
+}
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: gray;
+  }
